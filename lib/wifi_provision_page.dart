@@ -328,7 +328,7 @@ class _WifiProvisionPageState extends State<WifiProvisionPage> {
                 )
               : ListView.separated(
                   itemCount: _results.length,
-                  separatorBuilder: (_, __) => const SizedBox(height: 10),
+                  separatorBuilder: (_, _) => const SizedBox(height: 10),
                   itemBuilder: (_, i) {
                     final r = _results[i];
                     final name = r.device.platformName.isEmpty
